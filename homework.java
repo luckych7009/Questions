@@ -99,10 +99,10 @@ public class homework {
 	            System.out.println("it is not a multiple of 3 or 5.");
 	        }
 		  //11.Create a program to determine if a string is a palindrome or not (without using loops).
-           System.out.print("Enter your string to check it is a palindrome or not : ");String str=sc.nextLine();
-           String opp=new StringBuilder(str).reverse().toString();
+           System.out.print("Enter your string to check it is a palindrome or not : ");String stk=sc.nextLine();
+           String opp=new StringBuilder(stk).reverse().toString();
            System.out.println(opp);
-           if(str.equalsIgnoreCase(opp)) {
+           if(stk.equalsIgnoreCase(opp)) {
            System.out.println("It is a palindrome String...");	
             }
            else {
